@@ -2,7 +2,7 @@ const dev = require ("../pageobjects/TelnyxDevelopersPage.js")
 
 describe('Developers page test', async() => {
     
-    it('Side panel', async() => {
+    xit('Side panel', async() => {
         
         await dev.open()
 

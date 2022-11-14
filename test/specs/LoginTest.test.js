@@ -30,7 +30,7 @@ describe('E2E Login test', async() => {
 
   });
 
-  it('Login with correct credentials', async() => {
+  xit('Login with correct credentials', async() => {
     
     await browser.url("https://portal.telnyx.com/")
 
