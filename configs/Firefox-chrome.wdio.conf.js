@@ -2,7 +2,7 @@ const { config } = require("./wdio.conf");
 const path = require("path");
 
 const firefoxschrome = {  
-    ...config,
+    config,
     services: [['chromedriver', {chrome: 'latest'}], ['selenium-standalone', {firefox: 'latest'}]],
     capabilities: [    
         {      
