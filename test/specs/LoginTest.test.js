@@ -1,6 +1,6 @@
 const login = require('../pageobjects/Loginpage')
 const parse = require("../../helpers/pars.js")
-const accounts = parse.parseJsonFile('../../environments/accounts.json')
+const accounts =  parse.parseJsonFile('./environments/accounts.json')
 
 describe('E2E Login test', async() => {
 
@@ -34,7 +34,7 @@ describe('E2E Login test', async() => {
 
   });
 
-  it('Login with correct credentials', async() => {
+  xit('Login with correct credentials', async() => {
 
     await login.FillEmail(`${accounts["correct_user"].username}`)
 

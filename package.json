@@ -19,7 +19,7 @@
         "wdio-edgedriver-service": "^2.0.0"
     },
     "scripts": {
-        "test": "wdio run ./configs/Firefox-chrome.wdio.conf.js --spec test/specs/LoginTest.test.js",
+        "test": "wdio run ./configs/Firefox-chrome.wdio.conf.js",
         "wdio:chrome": "wdio run ./configs/wdio.chrome.headless.conf.js",
         "wdio:edge": "wdio run ./configs/Edge.wdio.conf.js",
         "wdio:firefox": "wdio run ./configs/wdio.firefox.headless.conf.js ",
