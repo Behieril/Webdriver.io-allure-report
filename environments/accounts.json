@@ -1,0 +1,15 @@
+{
+    "correct_user": {
+        "username":"remontologist@gmail.com",
+        "password":"dfglmsknWpkd03@"
+    },
+    "wrong_user_password": {
+        "username": "remontologist@gmail.com",
+        "password": "invalidPassword!!!"
+    },
+
+    "wrong_user_username": {
+        "username": "invalidUser",
+        "password": "dfglmsknWpkd03@"
+    }
+}
